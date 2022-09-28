@@ -9,9 +9,9 @@
 
 @font-face {
 	font-family: 'TT Norms Pro Educational Expanded';
-	src: url('../fonts/TT Norms Pro Educational Expanded Regular.ttf');
-	src: local('TT Norms Pro Educational Expanded Regular'), local('TT Norms Pro Educational Expanded Regular'),
-		url('../fonts/TT Norms Pro Educational Expanded Regular.ttf') format('ttf'),
+	src: url('../fonts/TT Norms Pro Educational Expanded Medium.ttf');
+	src: local('TT Norms Pro Educational Expanded Medium'), local('TT Norms Pro Educational Expanded Medium'),
+		url('../fonts/TT Norms Pro Educational Expanded Medium.ttf') format('ttf'),
 	font-style: normal;
 	font-weight: 500;
 }
