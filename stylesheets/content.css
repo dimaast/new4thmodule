@@ -255,9 +255,21 @@ a:hover {
   margin: 10.156vw 0vw 0vw 70.521vw;
 }
 
+.pluscontainer p {
+  margin: -2.3vw 3vw;
+  width: 10vw;
+  font-size: 1vw;
+  color: #1d4df5;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.pluscontainer p:hover {
+  opacity: 1;
+}
+
 .pluspriytspace2 {
-  margin: 5vw 0vw 0vw 40vw;
-  direction: rtl;
+  margin: 5vw 0vw 0vw 29vw;
 }
 
 .aboutbox3 {
