@@ -5,7 +5,7 @@ body {
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
-  background: url("../img/fon4.svg");
+  /* background: url("../img/fon4.svg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -66,28 +66,38 @@ p {
 
 /* Футер */
 
+hr {
+  position: relative;
+  margin: -1.7vw 0vw 0vw 0vw;
+  width: 96.875vw;
+  height: 0.156vw;
+  border-radius: 1vw;
+  border: none;
+  background-color: #fff;
+}
+
 .logobottom {
   position: relative;
   display: inline-block;
-  margin: 3.02vw 2.08vw;
+  margin: 4.7vw 0vw 0vw 2.08vw;
   width: 6.563vw;
   height: 5.324vw;
 }
 
 .footer {
-  margin: -8.57vw 20.95vw;
-  width: 26.51vw;
+  margin: -5.6vw 0vw 0vw 20.9vw;
+  width: 27.51vw;
   font-size: 1.25vw;
   font-weight: 500;
-  line-height: 1.615vw;
+  line-height: 1.63vw;
   text-transform: uppercase;
 }
 
 .podpiska {
   position: relative;
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
-  margin: 4.2vw 58.9vw;
+  margin: -4.4vw 0vw 0vw 58.9vw;
   width: 35.365vw;
   height: 3.958vw;
   padding-left: 2.083vw;
@@ -102,8 +112,8 @@ p {
 }
 
 button {
-  margin: -7vw 0vw 0vw 90.3vw;
-  display: inline-block;
+  display: block;
+  margin: -2.88vw 0vw 0vw 90.3vw;
   position: absolute;
   width: 1.979vw;
   height: 1.563vw;
