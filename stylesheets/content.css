@@ -5,6 +5,10 @@ body {
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
+  background: url("../img/fon2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   background-color: #1d4df5;
   color: #ffffff;
   font-size: 2.083vw;
@@ -24,12 +28,15 @@ body {
 }
 
 .homecontainer {
+  box-sizing: border-box;
   width: 96.875vw;
   height: 53.125vw;
   margin: 1.563vw auto;
   background-color: #3964fa;
   color: #fff;
   border-radius: 2.083vw;
+  overflow: hidden;
+  opacity: 0.2;
 }
 
 .box1 {
@@ -155,6 +162,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.indextextbackground {
+  width: 122.865vw;
+  margin-top: 6.1vw;
+}
+
 p {
   position: relative;
   width: 45vw;
@@ -175,6 +187,17 @@ p {
   background-repeat: no-repeat;
   background-size: 100% auto;
   transform: rotate(9.7deg);
+}
+
+.priyutballs {
+  position: relative;
+  margin: -25.8vw 0vw 0vw 53.5vw;
+  width: 41.093vw;
+  height: 30.484vw;
+  background: url("../img/priyutballs.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .box2 {
