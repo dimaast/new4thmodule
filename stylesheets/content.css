@@ -5,7 +5,7 @@ body {
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
-  background: url("../img/fon2.svg");
+  /* background: url("../img/fon2.svg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -17,34 +17,34 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  display: grid;
-  width: 96.875vw;
-  margin: 1.563vw auto;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1.563vw;
-  justify-content: center;
-  align-content: center;
+/* Главное */
+
+h2 {
+  position: relative;
+  width: 69.792vw;
+  margin-left: 1.55vw;
+  margin-top: -6.2vw;
+  font-size: 15.625vw;
+  line-height: 15.625vw;
+  font-family: "TT Travels Educational";
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-.homecontainer {
-  box-sizing: border-box;
-  width: 96.875vw;
-  height: 53.125vw;
-  margin: 1.563vw auto;
-  background-color: #3964fa;
-  color: #fff;
-  border-radius: 2.083vw;
-  overflow: hidden;
-  opacity: 0.2;
+/* Заголовок на главном экране */
+.indextextbackground {
+  width: 122.865vw;
+  margin-top: 6.1vw;
 }
 
-.box1 {
-  grid-column: 1/3;
-  height: 53.125vw;
-  background-color: #3964fa;
-  color: #fff;
-  border-radius: 2.083vw;
+p {
+  position: relative;
+  width: 45vw;
+  margin-left: 2.88vw;
+  font-size: 1.667vw;
+  line-height: 2.135vw;
+  font-family: "TT Norms Pro Educational Expanded";
+  font-weight: 400;
 }
 
 /* Шапка */
@@ -63,6 +63,43 @@ body {
   height: 2.677vw;
   z-index: 1;
 }
+
+/* Навигация */
+
+nav {
+  position: absolute;
+  margin: 1vw 62.7vw;
+  width: 34.688vw;
+  height: 2.4vw;
+  background-color: #fff;
+  font-size: 1.042vw;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 3.646vw;
+  z-index: 1;
+}
+
+.events,
+.pets,
+.shop,
+.contact {
+  padding-left: 1.24vw;
+}
+
+a {
+  text-decoration: none;
+  color: #1d4df5;
+  font-family: "TT Travels Educational";
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #a5b8fb;
+}
+
+/* Стрелки */
 
 .arrows {
   position: relative;
@@ -99,41 +136,43 @@ body {
   transform: scale(0.9);
 }
 
-nav {
-  position: absolute;
-  margin: 1vw 62.7vw;
-  width: 34.688vw;
-  height: 2.4vw;
-  background-color: #fff;
-  font-size: 1.042vw;
+/* Контейнеры на страницах */
+
+.containerabout {
+  display: grid;
+  width: 96.875vw;
+  margin: 1.563vw auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.563vw;
+  justify-content: center;
   align-content: center;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 3.646vw;
-  z-index: 1;
 }
 
-.events,
-.pets,
-.shop,
-.contact {
-  padding-left: 1.24vw;
+.containerindex {
+  box-sizing: border-box;
+  width: 96.875vw;
+  height: 53.125vw;
+  margin: 1.563vw auto;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+  overflow: hidden;
+  opacity: 0.2;
 }
 
-a {
-  text-decoration: none;
-  color: #1d4df5;
-  font-family: "TT Travels Educational";
-  font-weight: 500;
-  transition: all 0.3s ease-in-out;
-}
-
-a:hover {
-  color: #a5b8fb;
+.containerpet {
+  display: grid;
+  width: 96.875vw;
+  margin: 1.563vw auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.563vw;
+  justify-content: center;
+  align-content: center;
 }
 
 /* Наполнение Зоны приюта */
 
+/* Зоны для переключения */
 .zona1 {
   display: block;
 }
@@ -150,33 +189,7 @@ a:hover {
   display: none;
 }
 
-h2 {
-  position: relative;
-  width: 69.792vw;
-  margin-left: 1.55vw;
-  margin-top: -6.2vw;
-  font-size: 15.625vw;
-  line-height: 15.625vw;
-  font-family: "TT Travels Educational";
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.indextextbackground {
-  width: 122.865vw;
-  margin-top: 6.1vw;
-}
-
-p {
-  position: relative;
-  width: 45vw;
-  margin-left: 2.88vw;
-  font-size: 1.667vw;
-  line-height: 2.135vw;
-  font-family: "TT Norms Pro Educational Expanded";
-  font-weight: 400;
-}
-
+/* Изображение для зоны */
 .priyuthome {
   position: relative;
   margin: -33.8vw 0vw 0vw 63.5vw;
@@ -200,7 +213,16 @@ p {
   background-size: 100% auto;
 }
 
-.box2 {
+/* Боксы */
+.aboutbox1 {
+  grid-column: 1/3;
+  height: 53.125vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.aboutbox2 {
   grid-column: 1/3;
   height: 36.458vw;
   background: url("../img/priyutplace1.png");
@@ -212,6 +234,7 @@ p {
 }
 
 .pluscontainer {
+  position: absolute;
   width: 2.604vw;
   height: 2.604vw;
   background-color: #fff;
@@ -234,9 +257,10 @@ p {
 
 .pluspriytspace2 {
   margin: 5vw 0vw 0vw 40vw;
+  direction: rtl;
 }
 
-.box3 {
+.aboutbox3 {
   height: 23.073vw;
   background: url("../img/priyutplace2.png");
   background-position: center;
@@ -246,7 +270,7 @@ p {
   border-radius: 2.083vw;
 }
 
-.box4 {
+.aboutbox4 {
   height: 23.073vw;
   background: url("../img/priyutplace3.png");
   background-position: center;
@@ -256,7 +280,7 @@ p {
   border-radius: 2.083vw;
 }
 
-.box5 {
+.aboutbox5 {
   grid-column: 2;
   grid-row: 3/5;
   background: url("../img/priyutplace4.png");
@@ -267,10 +291,19 @@ p {
   border-radius: 2.083vw;
 }
 
-.box6 {
+.aboutbox6 {
   grid-column: 1/3;
   height: 11.458vw;
   background-color: #000;
   color: #fff;
   border-radius: 2.083vw;
+}
+
+.pochipet {
+  width: 50vw;
+  height: 50vw;
+  background: url("../img/pochi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }

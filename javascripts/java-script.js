@@ -1,7 +1,3 @@
-import * as THREE from './three-module.js'
-import { GLTFLoader } from './GLTFLoader.js'
-import { OrbitControls } from './OrbitControls.js'
-
 $(document).ready(function () {
   // Правая кнопка
   $(".rightarrow").click(function () {
@@ -50,66 +46,20 @@ $(document).ready(function () {
       }, 600);
     }
   });
-});
 
-let scene;
-                                            let camera;
-                                            let renderer;
-                                            let mesh;
-                                            function init() {
-                                              let container = document.querySelector('.containerpochi');
-                                              //scene
-                                              scene = new THREE.Scene()
-                                              scene.background = new THREE.Color(0x000000);
-                                              let light = new THREE.AmbientLight(0xffffff, 1.5);
-                                              const dirLight = new THREE.DirectionalLight(0xefefff, 1.5);
-                                              dirLight.position.set(10, 10, 10);
-                                              scene.add(light);
-                                              scene.add(dirLight);
-                                              //camera
-                                              camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 3000)
-                                              //renderer
-                                              renderer = new THREE.WebGLRenderer({ antialias: true })
-                                              renderer.setSize(window.innerWidth, window.innerHeight)
-                                              renderer.outputEncoding = THREE.sRGBEncoding;
-                                              container.appendChild(renderer.domElement)
-                                              //model
-                                              {
-                                                let loader = new GLTFLoader();
-                                                loader.load('./img/pochi.gltf', gltf => {
-                                                  mesh = gltf.scene;
-                                                  mesh.traverse( child => {
-                                                    if ( child.material ) child.material.metalness = 0.9;
-                                                  } );
-                                                  mesh.position.set(0, -350, 0);
-                                                  mesh.rotation.set(0, -350, 0);
-                                                  scene.add(mesh);
-                                                  scene.rotation.set(0, 0, 0)
-                                                  scene.rotation.x = 0;
-                                                  scene.rotation.y = 0;
-                                                  scene.rotation.z = 0;
-                                                  animate()
-                                                },
-                                                function (error) {
-                                                  console.log('Error: ' + error)
-                                                }
-                                              )
-                                            }
-                                            //resize
-                                            window.addEventListener('resize', onWindowResize, false)
-                                            function onWindowResize() {
-                                              camera.aspect = window.innerWidth / window.innerHeight;
-                                              camera.updateProjectionMatrix();
-                                              renderer.setSize(window.innerWidth, window.innerHeight)
-                                            }
-                                            function animate() {
-                                              requestAnimationFrame(animate)
-                                              controls.update();
-                                              renderer.render(scene, camera)
-                                            }
-                                            let controls = new OrbitControls(camera, renderer.domElement);
-                                            camera.position.set( 150, 100, 0 );
-                                            controls.enableDamping = true;
-                                          };
-                                          init();
-                                        });
+  // Плюсы в зоне приюта
+
+  $(".pluspriytspace1").mouseover(function () {
+    $(".pluspriytspace1.pluscontainer").animate({ width: "10vw" }, "slow");
+  });
+  $(".pluspriytspace1").mouseleave(function () {
+    $(".pluspriytspace1.pluscontainer").animate({ width: "2.604vw" }, "slow");
+  });
+
+  $(".pluspriytspace2").mouseover(function () {
+    $(".pluspriytspace2.pluscontainer").animate({ width: "10vw" }, "slow");
+  });
+  $(".pluspriytspace2").mouseleave(function () {
+    $(".pluspriytspace2.pluscontainer").animate({ width: "2.604vw" }, "slow");
+  });
+});
