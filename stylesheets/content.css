@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "TT Travels", serif;
+  font-family: "TT Travels Educational", serif;
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
@@ -75,6 +75,7 @@ p {
 .footer {
   margin: 1vw 1vw;
   width: 26.51vw;
+  font-family:
   font-size: 1.25vw;
   font-weight: 500;
   line-height: 1.615vw;
