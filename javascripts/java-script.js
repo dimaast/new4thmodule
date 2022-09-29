@@ -1,5 +1,15 @@
 $(document).ready(function () {
-  // Правая кнопка
+
+  $(".petbox4 > .leftarrow").click(function() {
+  $(".alert").css("display", "block");
+});
+});
+
+$(".rightarrow").click(function() {
+$(".alert").css("display", "block");
+});
+});
+
   $(".rightarrow").click(function () {
     if ($(".zona1").is(":visible")) {
       $(".zona1").fadeOut(600);
@@ -273,15 +283,21 @@ $(document).ready(function () {
     document.location.href = "./404.html";
   });
 
+  $(".lefttarrow").click(function() {
+    $(".eventscroll").animate({
+      scrollLeft: $(".event1").offset().left
+    }, 2000);
+  });
+
   $(".rightarrow").click(function() {
     $(".eventscroll").animate({
       scrollLeft: $(".event8").offset().left
     }, 2000);
   });
 
-  $(".lefttarrow").click(function() {
-    $(".eventscroll").animate({
-      scrollLeft: $(".event1").offset().left
+  $(".rightarrow").click(function() {
+    $(".itemscroll").animate({
+      scrollLeft: $(".item6").offset().left
     }, 2000);
   });
 
@@ -322,6 +338,38 @@ $(document).ready(function () {
   });
 
   $(".event8").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".item1").hover(function() {
+    $(".item1").toggleClass("item1shop");
+  });
+
+  $(".item1").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".item2").hover(function() {
+    $(".item2").toggleClass("item2shop");
+  });
+
+  $(".item2").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".item3").hover(function() {
+    $(".item3").toggleClass("item3shop");
+  });
+
+  $(".item3").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".item4").hover(function() {
+    $(".item4").toggleClass("item4shop");
+  });
+
+  $(".item4").click(function () {
     document.location.href = "./404.html";
   });
 

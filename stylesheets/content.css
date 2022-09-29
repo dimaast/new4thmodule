@@ -2,13 +2,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "TT Travels Educational", serif;
-  background-position: top;
-  background-repeat: repeat-y;
-  background-size: 100% auto;
-  background: url("../img/fon8.svg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
   background-color: #1d4df5;
   color: #ffffff;
   font-size: 2.083vw;
@@ -269,7 +262,7 @@ a:hover {
   display: grid;
   width: 96.875vw;
   margin: 1.563vw auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1.563vw;
   justify-content: center;
   align-content: center;
@@ -1037,4 +1030,245 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+/* Наполнение Магазина */
+
+.itemscroll {
+  width: 94.792vw;
+  height: 32.240vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.itemhidden {
+  width: 94.792vw;
+  height: 32.240vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 1.042vw 1.042vw 1.042vw 1.042vw;
+}
+
+.itemscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.itemsscrollcontent {
+  width: 190.8vw;
+}
+
+.items {
+  display: inline-block;
+  width: 30.521vw;
+  height: 32.292vw;
+  border-radius: 1.563vw;
+  margin-left: 0.96vw;
+}
+
+.item1 {
+  margin: 0vw 0vw 0vw 0vw;
+  background-image: url("../img/item1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item1shop {
+  width: 30.521vw;
+  height: 32.292vw;
+  background-image: url("../img/item1shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item2 {
+  background-image: url("../img/item2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item2shop {
+  width: 30.521vw;
+  height: 32.292vw;
+  background-image: url("../img/item2shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item3 {
+  background-image: url("../img/item3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item3shop {
+  width: 30.521vw;
+  height: 32.292vw;
+  background-image: url("../img/item2shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item4 {
+  background-image: url("../img/item4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item4shop {
+  width: 30.521vw;
+  height: 32.292vw;
+  background-image: url("../img/item4shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item5 {
+  background-image: url("../img/item5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item5shop {
+  width: 30.521vw;
+  height: 32.292vw;
+  background-image: url("../img/item5shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item6 {
+  background-image: url("../img/item6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.item6shop {
+  width: 30.521vw;
+  height: 32.292vw;
+  background-image: url("../img/item6shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* Наполнение питомца */
+
+.petbox1 {
+  grid-column: 1/6;
+  height: 53.125vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.petbox1 > h1 {
+    margin-left: 6.3vw;
+}
+
+.pochi {
+  position: relative;
+  display: block;
+  margin: -22vw auto;
+  width: 43.177vw;
+  height: 53.750vw;
+  background-image: url("../img/pochi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 20;
+}
+
+.petbox2 {
+  width: 47.708vw;
+  grid-column: 1/3;
+  height: 23.021vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.petbox2 > p {
+  width: 43.34vw;
+  margin: 3.542vw 0vw 0vw 2.083vw;
+}
+
+.petbox2 > .bigbutton {
+  margin-top: 1.563vw;
+}
+
+.petbox3 {
+  height: 23.021vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.petbox4 {
+  height: 23.021vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.petbox4 > .leftarrow {
+  width: 9.219vw;
+  height: 9.219vw;
+  margin: 6.875vw auto;
+}
+
+.petbox5 {
+  height: 23.021vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.petbox5 > .rightarrow {
+  width: 9.219vw;
+  height: 9.219vw;
+  margin: 6.875vw auto;
+}
+
+.petbox6 {
+  grid-column: 1/6;
+  height: 11.458vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+  margin-top: 3.3vw;
+}
+
+.alert {
+  position: absolute;
+  display: none;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 30vw;
+  background-color: #1d4df5;
+  color: #fff;
+  border-radius: 2.083vw;
+  z-index: 40;
+}
+
+.alert > h3 {
+  display: block;
+  padding: 7vw 0vw 0vw 10.4vw;
+}
+
+.alert > p {
+  display: block;
+  margin: 2vw 0vw 0vw 12vw;
 }
