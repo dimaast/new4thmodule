@@ -1249,10 +1249,10 @@ a:hover {
   margin-top: 3.3vw;
 }
 
-.alert {
+/* .alert {
   position: absolute;
-  display: none;
-  top: 70%;
+  display: block;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50vw;
@@ -1271,4 +1271,4 @@ a:hover {
 .alert > p {
   display: block;
   margin: 2vw 0vw 0vw 12vw;
-}
+} */

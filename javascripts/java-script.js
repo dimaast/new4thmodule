@@ -1,14 +1,14 @@
 $(document).ready(function () {
 
-  $(".petbox4 > .leftarrow").click(function() {
-  $(".alert").css("display", "block");
-});
-});
-
-$(".rightarrow").click(function() {
-$(".alert").css("display", "block");
-});
-});
+//   $(".petleftclick").click(function() {
+//   $(".alert").css("display", "none");
+// });
+// });
+//
+// $(".petrightclick").click(function() {
+// $(".alert").css("display", "block");
+// });
+// });
 
   $(".rightarrow").click(function () {
     if ($(".zona1").is(":visible")) {
