@@ -268,4 +268,20 @@ $(document).ready(function () {
   $(".plusfloor4").click(function () {
     document.location.href = "./priyut.html";
   });
-});
+
+  $(".bigbutton").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".rightarrow").click(function() {
+    $(".eventscroll").animate({
+      scrollLeft: $(".event8").offset().left
+    }, 2000);
+  });
+
+  $(".lefttarrow").click(function() {
+    $(".eventscroll").animate({
+      scrollLeft: $(".event1").offset().left
+    }, 2000);
+  });
+  });
