@@ -5,7 +5,7 @@ body {
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
-  /* background: url("../img/fon4.svg"); */
+  /* background: url("../img/fon2.svg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -36,6 +36,8 @@ h2 {
   width: 122.865vw;
   margin-top: 6.1vw;
 }
+
+/* Текст */
 
 p {
   position: relative;
@@ -217,7 +219,7 @@ a:hover {
   color: #fff;
   border-radius: 2.083vw;
   overflow: hidden;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 
 .containerpet {
@@ -230,7 +232,214 @@ a:hover {
   align-content: center;
 }
 
-/* Наполнение Зоны приюта */
+/* Наполнение Главной страницы */
+
+.containerpochi.pochipet {
+  position: relative;
+  margin: -45.6vw 0vw 0vw 61.7vw;
+  width: 38.281vw;
+  height: 45.625vw;
+  background: url("../img/pochipetcrop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 1;
+}
+
+.bubblecontact {
+  position: relative;
+  display: block;
+  width: 19.247vw;
+  height: 11.721vw;
+  margin: -49.5vw 0vw 0vw 1vw;
+  background: url("../img/bubblecontact.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+  animation: contactanima 10s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+@keyframes contactanima {
+  0% {top: 0vw; left: 0vw;}
+  25% {top: 0.3vw; left: 0.6vw; transform: rotate(-5deg);}
+  50% {top: 0.6vw; left: 0vw;}
+  75% {top: 0.3vw; left: -0.6vw;}
+  100% {top: 0vw; left: 0vw; transform: rotate(0deg);}
+}
+
+.bubblecontact:hover {
+  animation-play-state: paused;
+}
+
+.bubbleplace {
+  position: relative;
+  display: block;
+  width: 9.081vw;
+  height: 9.033vw;
+  margin: -8vw 0vw 0vw 29.8vw;
+  background: url("../img/bubbleplace.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+  animation: placeanima 10s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+@keyframes placeanima {
+  0% {top: 0vw; left: 0vw;}
+  25% {top: 0.6vw; left: 0.3vw;}
+  50% {top: 0vw; left: 0.6vw; transform: rotate(15deg);}
+  75% {top: -0.3vw; left: 0.6vw;}
+  100% {top: 0vw; left: 0vw; transform: rotate(0deg);}
+}
+
+.bubbleplace:hover {
+  animation-play-state: paused;
+}
+
+.bubbleshop {
+  position: relative;
+  display: block;
+  width: 28.188vw;
+  height: 13.210vw;
+  margin: -11.4vw 0vw 0vw 45.2vw;
+  background: url("../img/bubbleshop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+  animation: shopanima 10s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+@keyframes shopanima {
+  0% {top: 0vw; left: 0vw;}
+  25% {top: -0.6vw; left: 0.3vw;}
+  50% {top: 0vw; left: 0.3vw; transform: rotate(5deg);}
+  75% {top: -0.6vw; left: 0.6vw;}
+  100% {top: 0vw; left: 0vw; transform: rotate(0deg);}
+}
+
+.bubbleshop:hover {
+  animation-play-state: paused;
+}
+
+.bubbleevents {
+  position: relative;
+  display: block;
+  width: 27.664vw;
+  height: 10.818vw;
+  margin: 1vw 0vw 0vw 13vw;
+  background: url("../img/bubbleevents.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+  animation: eventsanima 10s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+@keyframes eventsanima {
+  0% {top: 0vw; left: 0vw;}
+  25% {top: -0.3vw; left: 0.3vw;}
+  50% {top: 0.6vw; left: -0.3vw; transform: rotate(3deg);}
+  75% {top: -0.6vw; left: 0.3vw;}
+  100% {top: 0vw; left: 0vw; transform: rotate(0deg);}
+}
+
+.bubbleevents:hover {
+  animation-play-state: paused;
+}
+
+.bubbleabout {
+  position: relative;
+  display: block;
+  width: 18.801vw;
+  height: 10.610vw;
+  margin: 1vw 0vw 0vw 0.4vw;
+  background: url("../img/bubbleabout.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+  animation: aboutanima 10s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+@keyframes aboutanima {
+  0% {top: 0vw; left: 0vw;}
+  25% {top: 0.3vw; left: -0.6vw;}
+  50% {top: -0.3vw; left: 0.3vw; transform: rotate(-5deg);}
+  75% {top: 0.3vw; left: 0.6vw;}
+  100% {top: 0vw; left: 0vw; transform: rotate(0deg);}
+}
+
+.bubbleabout:hover {
+  animation-play-state: paused;
+}
+
+.bubblepriyut {
+  position: relative;
+  display: block;
+  width: 18.708vw;
+  height: 10.397vw;
+  margin: -11.9vw 0vw 0vw 39.8vw;
+  background: url("../img/bubblepriyut.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+  animation: priyutanima 10s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+@keyframes priyutanima {
+  0% {top: 0vw; left: 0vw;}
+  25% {top: -0.6vw; left: -0.3vw;}
+  50% {top: -0.3vw; left: 0.3vw; transform: rotate(-8deg);}
+  75% {top: 0.3vw; left: -0.6vw;}
+  100% {top: 0vw; left: 0vw; transform: rotate(0deg);}
+}
+
+.bubblepriyut:hover {
+  animation-play-state: paused;
+}
+
+.bubblepets {
+  position: relative;
+  display: block;
+  width: 27.508vw;
+  height: 10.344vw;
+  margin: 1.2vw 0vw 0vw 15.3vw;
+  background: url("../img/bubblepets.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+  animation: petsanima 10s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+@keyframes petsanima {
+  0% {top: 0vw; left: 0vw;}
+  25% {top: 0.3vw; left: 0.3vw;}
+  50% {top: 0vw; left: -0.3vw; transform: rotate(5deg);}
+  75% {top: -0.6vw; left: 0.6vw;}
+  100% {top: 0vw; left: 0vw; transform: rotate(0deg);}
+}
+
+.bubblepets:hover {
+  animation-play-state: paused;
+}
+
+/* Наполнение О нас */
+
+
+
+/* Наполнение Приюта */
 
 /* Зоны для переключения */
 .zona1 {
@@ -250,6 +459,17 @@ a:hover {
 }
 
 /* Изображение для зоны */
+.priyutfirst {
+  position: relative;
+  margin: -28.8vw 0vw 0vw 60.5vw;
+  width: 31.380vw;
+  height: 27.214vw;
+  background: url("../img/priyutfirst.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .priyuthome {
   position: relative;
   margin: -33.8vw 0vw 0vw 63.5vw;
@@ -268,6 +488,17 @@ a:hover {
   width: 41.093vw;
   height: 30.484vw;
   background: url("../img/priyutballs.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.priyutfloor {
+  position: relative;
+  margin: -36.8vw 0vw 0vw 57.5vw;
+  width: 34.507vw;
+  height: 37.526vw;
+  background: url("../img/priyutfloor.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -412,13 +643,4 @@ a:hover {
 
 .plusfactoryspace4 {
   margin: 20vw 0vw 0vw 32vw;
-}
-
-.pochipet {
-  width: 50vw;
-  height: 50vw;
-  background: url("../img/pochi.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
 }
