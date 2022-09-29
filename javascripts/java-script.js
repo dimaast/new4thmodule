@@ -284,4 +284,45 @@ $(document).ready(function () {
       scrollLeft: $(".event1").offset().left
     }, 2000);
   });
+
+  $(".event1").hover(function() {
+    $(".event1").toggleClass("event1shop");
+  });
+
+  $(".event1").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".event2").hover(function() {
+    $(".event2").toggleClass("event2shop");
+  });
+
+  $(".event2").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".event3").hover(function() {
+    $(".event3").toggleClass("event3shop");
+  });
+
+  $(".event3").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".event7").hover(function() {
+    $(".event7").toggleClass("event7shop");
+  });
+
+  $(".event7").click(function () {
+    document.location.href = "./404.html";
+  });
+
+  $(".event8").hover(function() {
+    $(".event8").toggleClass("event8shop");
+  });
+
+  $(".event8").click(function () {
+    document.location.href = "./404.html";
+  });
+
   });

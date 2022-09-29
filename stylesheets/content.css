@@ -944,44 +944,96 @@ a:hover {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+.event1shop {
+  width: 22.969vw;
+  height: 32.240vw;
+  background-image: url("../img/event1shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .event2 {
   background-image: url("../img/event2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+.event2shop {
+  width: 22.969vw;
+  height: 32.240vw;
+  background-image: url("../img/event2shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .event3 {
   background-image: url("../img/event3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+.event3shop {
+  width: 22.969vw;
+  height: 32.240vw;
+  background-image: url("../img/event3shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .event4 {
   background-image: url("../img/event4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
 .event5 {
   background-image: url("../img/event5.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
 .event6 {
   background-image: url("../img/event6.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
 .event7 {
   background-image: url("../img/event7.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+.event7shop {
+  width: 22.969vw;
+  height: 32.240vw;
+  background-image: url("../img/event7shop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .event8 {
   background-image: url("../img/event8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.event8shop {
+  width: 22.969vw;
+  height: 32.240vw;
+  background-image: url("../img/event8shop.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
