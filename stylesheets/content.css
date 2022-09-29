@@ -5,7 +5,7 @@ body {
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
-  background: url("../img/fon6.svg");
+  background: url("../img/fon8.svg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -255,6 +255,16 @@ a:hover {
   align-content: center;
 }
 
+.containercontact {
+  display: grid;
+  width: 96.875vw;
+  margin: 1.563vw auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.563vw;
+  justify-content: center;
+  align-content: center;
+}
+
 .containerpet {
   display: grid;
   width: 96.875vw;
@@ -475,6 +485,7 @@ a:hover {
 .aboutstartbox2 {
   margin-top: 25.7vw;
   grid-row: 2/4;
+  background-color: #3964FA;
   color: #fff;
   border-radius: 2.083vw;
 }
@@ -482,6 +493,7 @@ a:hover {
 .aboutstartbox3 {
   margin-top: 25.7vw;
   height: 23.073vw;
+  background-color: #3964FA;
   color: #fff;
   border-radius: 2.083vw;
 }
@@ -489,6 +501,7 @@ a:hover {
 .aboutstartbox4 {
   grid-column: 2;
   height: 23.073vw;
+  background-color: #3964FA;
   color: #fff;
   border-radius: 2.083vw;
 }
@@ -504,6 +517,18 @@ a:hover {
   width: 65.052vw;
   height: 62.448vw;
   background: url("../img/zdanie.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.placer {
+  position: relative;
+  display: block;
+  margin: -19vw 0vw 0vw 42vw;
+  width: 3.632vw;
+  height: 4.843vw;
+  background: url("../img/placer.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -749,4 +774,24 @@ a:hover {
 
 .plusfactoryspace4 {
   margin: 20vw 0vw 0vw 32vw;
+}
+
+/* Наполнение Связь */
+.contactbox1 {
+  height: 53.125vw;
+  background-color: #3964fa;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.contactbox1 > h3 {
+  margin: 0vw 0vw 0vw 0vw;
+  width: 44.802vw;
+}
+
+.contactbox2 {
+  height: 53.125vw;
+  background-color: #1D4DF5;
+  color: #fff;
+  border-radius: 2.083vw;
 }
