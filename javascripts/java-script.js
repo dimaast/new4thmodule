@@ -220,4 +220,52 @@ $(document).ready(function () {
     $(".plusfactoryspace4.pluscontainer").animate({ width: "2.604vw" }, "slow");
     $(".plusfactoryspace4 p").animate({ opacity: "0" }, "slow");
   });
+
+  $(".plusfloor1").mouseover(function () {
+    $(".plusfloor1.pluscontainerfloors").animate({ width: "11.6vw" }, "slow");
+    $(".plusfloor1 p").animate({ opacity: "1" }, "slow");
+  });
+  $(".plusfloor1").mouseleave(function () {
+    $(".plusfloor1.pluscontainerfloors").animate({ width: "2.604vw" }, "slow");
+    $(".plusfloor1 p").animate({ opacity: "0" }, "slow");
+  });
+  $(".plusfloor1").click(function () {
+    document.location.href = "./priyut.html";
+  });
+
+  $(".plusfloor2").mouseover(function () {
+    $(".plusfloor2.pluscontainerfloors").animate({ width: "11.6vw" }, "slow");
+    $(".plusfloor2 p").animate({ opacity: "1" }, "slow");
+  });
+  $(".plusfloor2").mouseleave(function () {
+    $(".plusfloor2.pluscontainerfloors").animate({ width: "2.604vw" }, "slow");
+    $(".plusfloor2 p").animate({ opacity: "0" }, "slow");
+  });
+  $(".plusfloor2").click(function () {
+    document.location.href = "./priyut.html";
+  });
+
+  $(".plusfloor3").mouseover(function () {
+    $(".plusfloor3.pluscontainerfloors").animate({ width: "13.8vw" }, "slow");
+    $(".plusfloor3 p").animate({ opacity: "1" }, "slow");
+  });
+  $(".plusfloor3").mouseleave(function () {
+    $(".plusfloor3.pluscontainerfloors").animate({ width: "2.604vw" }, "slow");
+    $(".plusfloor3 p").animate({ opacity: "0" }, "slow");
+  });
+  $(".plusfloor3").click(function () {
+    document.location.href = "./priyut.html";
+  });
+
+  $(".plusfloor4").mouseover(function () {
+    $(".plusfloor4.pluscontainerfloors").animate({ width: "9.6vw" }, "slow");
+    $(".plusfloor4 p").animate({ opacity: "1" }, "slow");
+  });
+  $(".plusfloor4").mouseleave(function () {
+    $(".plusfloor4.pluscontainerfloors").animate({ width: "2.604vw" }, "slow");
+    $(".plusfloor4 p").animate({ opacity: "0" }, "slow");
+  });
+  $(".plusfloor4").click(function () {
+    document.location.href = "./priyut.html";
+  });
 });

@@ -5,8 +5,8 @@ body {
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
-  /* background: url("../img/fon2.svg"); */
-  background-position: center;
+  background: url("../img/fon6.svg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-color: #1d4df5;
@@ -19,6 +19,18 @@ body {
 
 /* Главное */
 
+h1 {
+  position: relative;
+  width: 87.72vw;
+  margin-left: 5.1vw;
+  margin-top: 3.5vw;
+  font-size: 26.042vw;
+  line-height: 26.042vw;
+  font-family: "TT Travels Educational";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 h2 {
   position: relative;
   width: 69.792vw;
@@ -26,6 +38,18 @@ h2 {
   margin-top: -6.2vw;
   font-size: 15.625vw;
   line-height: 15.625vw;
+  font-family: "TT Travels Educational";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h3 {
+  position: relative;
+  width: 38.021vw;
+  margin-left: 1.33vw;
+  margin-top: 2.2vw;
+  font-size: 10.417vw;
+  line-height: 9.583vw;
   font-family: "TT Travels Educational";
   font-weight: 400;
   text-transform: uppercase;
@@ -44,7 +68,7 @@ p {
   width: 45vw;
   margin-left: 2.88vw;
   font-size: 1.667vw;
-  line-height: 2.135vw;
+  line-height: 2.2vw;
   font-family: "TT Norms Pro Educational Expanded";
   font-weight: 400;
 }
@@ -219,7 +243,16 @@ a:hover {
   color: #fff;
   border-radius: 2.083vw;
   overflow: hidden;
-  /* opacity: 0.2; */
+}
+
+.containeraboutstart {
+  display: grid;
+  width: 96.875vw;
+  margin: 1.563vw auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.563vw;
+  justify-content: center;
+  align-content: center;
 }
 
 .containerpet {
@@ -437,7 +470,80 @@ a:hover {
 
 /* Наполнение О нас */
 
+/* Боксы */
 
+.aboutstartbox2 {
+  margin-top: 25.7vw;
+  grid-row: 2/4;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.aboutstartbox3 {
+  margin-top: 25.7vw;
+  height: 23.073vw;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.aboutstartbox4 {
+  grid-column: 2;
+  height: 23.073vw;
+  color: #fff;
+  border-radius: 2.083vw;
+}
+
+.aboutstartbox4 > p {
+  margin: 3.6vw 0vw 0vw 2.1vw;
+  width: 38.906vw;
+}
+
+.zdanie {
+  position: relative;
+  margin: -13vw auto;
+  width: 65.052vw;
+  height: 62.448vw;
+  background: url("../img/zdanie.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* Дополнительная информация через плюсы об этажах */
+
+.pluscontainerfloors {
+  position: absolute;
+  width: 2.604vw;
+  height: 2.604vw;
+  background-color: #fff;
+  border-radius: 2.083vw;
+}
+
+.pluscontainerfloors > p {
+  margin: -2.3vw 3vw;
+  width: 18vw;
+  font-size: 1vw;
+  color: #1d4df5;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.plusfloor1 {
+  margin: 0vw 0vw 0vw 58.6vw;
+  z-index: 1;
+}
+.plusfloor2 {
+  margin: -9vw 0vw 0vw 38vw;
+  z-index: 1;
+}
+.plusfloor3 {
+  margin: -19.6vw 0vw 0vw 59.1vw;
+  z-index: 1;
+}
+.plusfloor4 {
+  margin: -36.4vw 0vw 0vw 34.3vw;
+  z-index: 1;
+}
 
 /* Наполнение Приюта */
 
@@ -567,7 +673,7 @@ a:hover {
   margin-top: 3.3vw;
 }
 
-/* Дополнительная информация через плюсы  */
+/* Дополнительная информация через плюсы о пространстве  */
 
 .pluscontainer {
   display: none;
@@ -588,7 +694,7 @@ a:hover {
   background-size: 100% auto;
 }
 
-.pluscontainer p {
+.pluscontainer > p {
   margin: -2.3vw 3vw;
   width: 18vw;
   font-size: 1vw;
